@@ -1,7 +1,7 @@
 try:
     for _ in range(int(input())):                     #accept input
         n = int(input())
-        l = list(map(int, input().split()))           #split the input 
+        l = list(map(int, input().split()))           #applies int to each string element in the input
         cnt = [l.count(-1), l.count(0), l.count(1)]
         c = len(l) - sum(cnt)
         
