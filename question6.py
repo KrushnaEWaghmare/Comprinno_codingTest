@@ -1,4 +1,4 @@
-# cook your dish here
+
 T=int(input())                                  #input tests
 for i in range(T):                              
     c,d,l=map(int,input().split())
